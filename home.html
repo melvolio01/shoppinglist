@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping List Tracker App</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
+    </head>
+<body>
+<div class="container u-full-width">
+    <h2>Budget Tracker</h2>
+    <form id="shopping-form"> 
+         <div class="row">
+            <div class="ten columns">
+                <label for="item">Shopping List Item</label>
+                <input class="u-full-width" id="item" placeholder="New Item">
+            </div>
+            <div class="two columns">
+                <label for="item">Price</label>
+                <input class="u-full-width" id="amount" placeholder="£">
+            </div>
+        </div>
+        <div class="u-full-width" id="message"></div>
+    <input type='submit' value='Submit' id="submit-button" class="btn u-full-width">
+     <table class="u-full-width">
+        <tbody id="shopping-list">
+            
+        </tbody>
+        <tr>
+            <td class="nine columns"><str>Total Cost</str></td>
+            <td class="total three columns"><str>£0.00</str></td>
+        </tr>
+    </table>
+</div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
